@@ -1,0 +1,9 @@
+static/data/davis_man-bike_vsfn_flow_lamuse_stylized.mp4
+static/data/davis_guitar-violin_vsfn_diff_lamuse_stylized.mp4
+static/data/davis_cats-car_vsfn_zero_composition_stylized.mp4
+static/data/sintel_temple_1_vsfn_flow_starrynight_stylized.mp4
+static/data/davis_slackline_vsfn_zero_composition_stylized.mp4
+static/data/davis_girl-dog_vsfn_diff_feathers_stylized.mp4
+static/data/sintel_market_4_vsfn_flow_lamuse_stylized.mp4
+static/data/sintel_wall_vsfn_zero_lamuse_stylized.mp4
+static/data/sintel_market_1_vsfn_diff_starrynight_stylized.mp4
