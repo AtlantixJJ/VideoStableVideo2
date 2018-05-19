@@ -21,7 +21,7 @@ else:
     arg = arg % ("", 1) # 1 or 2
     base_arg = base_arg % ""
 
-def proc(l):
+def proc1(l):
     ind = l.rfind("/")
     return base_arg+l[ind+1:]
 
@@ -31,7 +31,10 @@ def procn(l):
 
 ctrl_lists = [[], [], []]
 for i in range(3):
-    ctrl_lists[i] = [proc(l) for l in open("ctrl_list%d.txt" % (i+1)).readlines()]
+    if i == 0:
+        ctrl_lists[i] = [proc1(l) for l in open("ctrl_list%d.txt" % (i+1)).readlines()]
+    else:
+        ctrl_lists[i] = [procn(l) for l in open("ctrl_list%d.txt" % (i+1)).readlines()]
 print(ctrl_lists[0])
 
 for mp4file in mp4list:
